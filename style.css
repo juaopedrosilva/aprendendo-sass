@@ -1,0 +1,59 @@
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #000000;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex.flex_start {
+  -webkit-justify-content: "flex_start";
+  -moz-justify-content: "flex_start";
+  -ms-justify-content: "flex_start";
+  justify-content: "flex_start";
+  -ms-flex-pack: "flex_start";
+}
+.flex.flex-end {
+  -webkit-justify-content: "flex-end";
+  -moz-justify-content: "flex-end";
+  -ms-justify-content: "flex-end";
+  justify-content: "flex-end";
+  -ms-flex-pack: "flex-end";
+}
+.flex.space-between {
+  -webkit-justify-content: "space-between";
+  -moz-justify-content: "space-between";
+  -ms-justify-content: "space-between";
+  justify-content: "space-between";
+  -ms-flex-pack: "space-between";
+}
+.flex.space-around {
+  -webkit-justify-content: "space-around";
+  -moz-justify-content: "space-around";
+  -ms-justify-content: "space-around";
+  justify-content: "space-around";
+  -ms-flex-pack: "space-around";
+}
+
+/*# sourceMappingURL=style.css.map */
